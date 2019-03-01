@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2a1f3ef-8d7f-4e2d-8c72-e615a79bf59c" name="Default Changelist" comment="Step 2-2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/edit_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/choose_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/choose_database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/choose_db.ui" beforeDir="false" afterPath="$PROJECT_DIR$/choose_db.ui" afterDir="false" />
-    </list>
+    <list default="true" id="f2a1f3ef-8d7f-4e2d-8c72-e615a79bf59c" name="Default Changelist" comment="Step 2-2" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +69,18 @@
         <counts>
           <entry key="dummy" value="7" />
           <entry key="py" value="2869" />
-          <entry key="txt" value="8" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="PLAIN_TEXT" value="28" />
           <entry key="Python" value="2869" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.tag.delete.local" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -90,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edit_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
+            <state relative-caret-position="442">
               <caret line="143" column="26" lean-forward="true" selection-start-line="143" selection-start-column="26" selection-end-line="143" selection-end-column="26" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -103,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/choose_database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="336">
+              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
                 <marker date="1551477985733" expanded="true" signature="178:183" ph="..." />
@@ -128,6 +128,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Birhan &lt;birhankarahasan@outlook.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -242,6 +247,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f2a1f3ef-8d7f-4e2d-8c72-e615a79bf59c" name="Default Changelist" comment="" />
+      <changelist id="" name="Step 2-3" comment="" />
       <created>1551211077279</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -261,7 +267,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551431945936</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Step 2-2">
+      <created>1551479466186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551479466186</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Step 2-3">
+      <created>1551479722221</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551479722221</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -274,19 +294,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17184402" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17184402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1189759" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1189759" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49966952" weight="0.3298193" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4990086" weight="0.18825302" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4990086" visible="true" weight="0.35240963" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5009914" side_tool="true" weight="0.18825302" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -339,7 +359,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Step 2" />
     <MESSAGE value="Step 2-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step 2-2" />
+    <MESSAGE value="Step 2-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 2-3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../BİLG. PROG/GORSEL PROG. - 2/26.02.2019/main.py">
@@ -353,7 +374,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/edit_db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="442">
           <caret line="143" column="26" lean-forward="true" selection-start-line="143" selection-start-column="26" selection-end-line="143" selection-end-column="26" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -364,8 +385,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/choose_database.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="336">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
             <marker date="1551477985733" expanded="true" signature="178:183" ph="..." />

@@ -1,5 +1,4 @@
 from mysql.connector import MySQLConnection
-
 connect=MySQLConnection(
     user='root',
     password='',

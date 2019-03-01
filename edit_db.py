@@ -139,8 +139,8 @@ class AdresDefteri(QMainWindow):
 
 
 
-
-app=QApplication(sys.argv)
-window=AdresDefteri()
-window.show()
-sys.exit(app.exec_())
+if __name__=="__main__":
+    app=QApplication(sys.argv)
+    window2=AdresDefteri()
+    window2.show()
+    sys.exit(app.exec_())

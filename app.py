@@ -29,15 +29,6 @@ class AdresDefteri(QMainWindow):
         cursor.execute(sorgu)
         con.commit()
 
-
-
-
-
-
-
-
-
-
     def get_data(self):
         sorgu=('select * from adres_defteri;')
         con=self.db_connect()

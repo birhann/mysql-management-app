@@ -14,6 +14,7 @@ class AdresDefteri(QMainWindow):
         self.button_ekle.clicked.connect(self.insert_data)
         self.button_sil.clicked.connect(self.delete_data)
 
+
     def db_connect(self):
         con = MySQLConnection(
             user='root',
@@ -99,7 +100,6 @@ class AdresDefteri(QMainWindow):
             msgBox.setIcon(QMessageBox.Warning)
             msgBox.setText("Lütfen Bir Hücre Seçin")
             msgBox.setWindowTitle("Uyarı !")
-
             msgBox.exec()
 
     def get_row_and_column(self):
@@ -133,14 +133,8 @@ class AdresDefteri(QMainWindow):
                 values['telefon'] = value_telefon
                 return values
 
-
-
-
-
-
-
-if __name__=="__main__":
+if __name__ == "__main__":
     app=QApplication(sys.argv)
-    window2=AdresDefteri()
-    window2.show()
+    window=AdresDefteri()
+    window.show()
     sys.exit(app.exec_())
